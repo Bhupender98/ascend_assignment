@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* login page  */
+.login-container{
+  height: auto;
+  width: 300px;
+  border: 2px solid lightblue;
+  margin: 7% auto;
+  text-align: center;
+  padding: 0 0 2rem;
+}
+.login-container input,button{
+  height: 5vh;
+  width:95%;
+  margin: 2rem 0 0 0;
+  padding-left: 0.5rem;
+}
+.login-container p{
+  margin-top: 1.5rem;
+}
+
+.navbar {
+  height: 12vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(236,
+      235,
+      235);
+  padding: 0 1rem;
+}
+
+.tasksContainer {
+  height: 80vh;
+  width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  padding-top: 3rem;
+}
+
+.tasksContainer>div {
+  height: 80%;
+  width: 300px;
+  margin-left: 2rem;
+  background: rgb(236, 235, 235);
+}
+
+.tasksContainer>div h3 {
+  text-align: center;
+  background: lightgray;
+  padding: 0.5rem;
+}
+
+.list {
+  height: 8vh;
+  width: 100%;
+  background: whitesmoke;
+  border: 1px solid rgb(223, 221, 221);
+  display: flex;
+  align-items: center;
+  margin-top: 0.3rem;
+}
+.list input{
+  height: 1.5rem;
+  width: 1rem;
+
+margin-left: 0.5rem;}
+
+.list p {
+  font-size: 17px;
+  padding-left: 0.5rem;
+}
+
+.create-list-container {
+  height: 30vh !important;
+}
+
+.create-list {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  width: 100px;
+  font-size: 1rem;
+}
